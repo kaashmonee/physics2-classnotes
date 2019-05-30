@@ -176,9 +176,9 @@ QABS = Question Asked By Student
 
 	\item In order to find close and far field limits, if we have denominators like $(a + b)^n,$ we can always reduce to obtain an expression of the form $(1 + \alpha)^\beta.$
 
-	\item Q: how does the binomial theorem lead to the Taylor expansion of $(1+\alpha)^\beta?$
+	% \item Q: how does the binomial theorem lead to the Taylor expansion of $(1+\alpha)^\beta?$
 
-	\item Q: In order to find the electric field inside a hollow spherical shell, can we imagine a ring, rotate it around its axis, and then integrate? 
+	\item Question to consider: In order to show that the $\vec E$ field inside a spherical shell is zero, can we imagine a ring, rotate it around its axis, and then integrate? 
 
 	\item Summary of what we did today:
 		\begin{itemize}
@@ -193,8 +193,8 @@ QABS = Question Asked By Student
 
 			\item If we construct a ``Gaussian surface.'' If we perform the following calculation, $$\oint \vec E \cdot d \vec A = \frac{q_{enc}}{\epsilon_0}.$$
 
-			\item (Needs An Intuitive Explanation: NAIE) Why does the E field point radially outwards from a point charge?
-			\textit{Answer: A straight line is the }
+			% \item (needs an intuitive explanation: naie) why does the e field point radially outwards from a point charge?
+			% \textit{answer: a straight line is the }
 		\end{itemize}
 \end{itemize}
 
@@ -202,7 +202,7 @@ QABS = Question Asked By Student
 	\begin{itemize}
 		\item Starting/looking at Gauss's law: $\oint \vec E \cdot d\vec A = q_{enc}/\epsilon_0.$
 
-		\item Q: What would the electric field be around a rod that is not infinitely long? And what about the flux  
+		\item What would the electric field be around a rod that is not infinitely long? 
 
 		\item We also introduced the cylindrical coordinate system. The spherical coordinate system is characterized by $\rho, \phi, z.$ 
 
@@ -215,8 +215,8 @@ QABS = Question Asked By Student
 
 		\item The basis vectors are given by: 
 			\begin{align*}
-				\hat \rho &= \rho \cos \phi \hat \imath  + \rho \sin \phi \hat \jmath \\
-				\hat \phi &= -\rho \sin \phi \hat \imath + \rho \cos \phi \hat \jmath \\
+				\hat \rho &= \cos \phi \hat \imath  + \sin \phi \hat \jmath \\
+				\hat \phi &= -\sin \phi \hat \imath + \cos \phi \hat \jmath \\
 				\hat z &= \hat z
 			\end{align*}
 
@@ -289,7 +289,6 @@ QABS = Question Asked By Student
 			\item Make as many symmetry arguments as possible to reduce your calculations.
 			\item Choose a fish net such that the fish net contains all the ``fish.'' What this means is that we want to choose a Gaussian surface such that the surface encloses all the points.
 			\item Choose your ``representative points.''
-			\item $$\int \vec E \cdot d \vec A$$
 			\item Always remember, laziness is crucial to solving Gauss's law problems. Without it, you will most definitely fail.
 			\item In all seriousness, try to make your own life as easy as possible. Reduce as much as possible, pick the most convenient Gaussian surface as possible, and ensure that your chosen Gaussian surface encapsulates all the information you want. That is, you are interested in what is going on WITHIN the Gaussian sphere, but are not interested in ANY less or ANY more.
 		\end{enumerate}

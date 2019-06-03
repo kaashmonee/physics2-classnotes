@@ -289,7 +289,7 @@ QABS = Question Asked By Student
 			\item Make as many symmetry arguments as possible to reduce your calculations.
 			\item Choose a fish net such that the fish net contains all the ``fish.'' What this means is that we want to choose a Gaussian surface such that the surface encloses all the points.
 			\item Choose your ``representative points.''
-			\item Always remember, laziness is crucial to solving Gauss's law problems. Without it, you will most definitely fail.
+			% \item Always remember, laziness is crucial to solving Gauss's law problems. Without it, you will most definitely fail.
 			\item In all seriousness, try to make your own life as easy as possible. Reduce as much as possible, pick the most convenient Gaussian surface as possible, and ensure that your chosen Gaussian surface encapsulates all the information you want. That is, you are interested in what is going on WITHIN the Gaussian sphere, but are not interested in ANY less or ANY more.
 		\end{enumerate}
 
@@ -297,6 +297,63 @@ QABS = Question Asked By Student
 
 		\item Ask yourself: What are the 4 requirements of determining a Gaussian surface?
 	\end{itemize}
+
+
+\section{Notes 5/31/19}
+	\begin{itemize}
+		\item What is energy? Energy is a book keeping quantity that we made up. You can think about it like a ``universical currency.''
+
+		\item Kinetic energy: $$K_e = E - E_0,$$ where $E$ is the total energy and $E_0$ is the rest energy.
+
+		\item How do we characterize the change in kinetic energy? We think about it like work: $$\Delta K_e = Work.$$
+
+		\item From physics 1, the other conserved mechanical energy is the potential energy, often denoted $U.$ You can think about this as the ability or tendency for an object to do work.
+
+		\item $\Delta U = -W_{F_{1 \rightarrow 2}}.$ 
+
+		\item Work is defined by $$W = \int_a^b \vec F \cdot d \vec s.$$ This is just a line integral. So $$U = -W = -\int_a^b \vec F \cdot d \vec s.$$
+
+		\item We should ask ourselves, why is there a negative sign here? Well, that's because we are interested in a change of potential energy. Imagine what happens when a ball falls from a table. What happens to the gravitational potential energy of the ball? The ball loses height and since $U_g \propto h$, the potential energy goes down. So as gravity does more work ($\Delta W > 0$), the potential energy goes down, $\Delta U < 0.$ So therefore, $U \propto -W.$
+
+		\item We introduce \textbf{electric potential:}
+			\begin{itemize}
+				\item Electric potential is the energy analogue of the electric field.
+				\item Recall, we obtained the E field by asking ourselves the force that an object would feel and dividing it by a test charge. It was, in some sense, a ``force density.'' 
+
+				\item In the same way, you can think of the E field as an ``energy density,'' where the E field is the energy per unit charge, so that means that $$V = U/q = -W/q.$$
+
+				\item If this doesn't make sense right away, that's fine; electric potential is a bit of an abstract concept to grasp, and it can take some time.
+
+				\item How does the electric potential look around point charges?
+
+				\item $\Delta V = -\int \vec E \cdot d\vec s.$
+
+			\end{itemize}
+
+	\end{itemize}
+
+\section{Notes 6/3/19}
+	Today we discussed energy. 
+	\begin{itemize}
+		\item $\Delta U = -W = -\int \vec F \cdot d \vec r.$
+		\item From $\Delta U,$ we can obtain $\Delta V:$ $$\Delta V = \frac{\Delta U}{q}.$$
+
+		\item $$U(r) = \frac{1}{4 \pi \epsilon_0} \frac{Q q_{test}}{r}.$$ What does this quantity mean? Let's assume that $Q$ is fixed. This means $U$ is the work that \textit{the field does in order to move the charge $q_{test}$ from $r$ to $\infty$.} If $Q$ and $q_{test}$ are the same charge, then the charges will repel. This would mean that the field would do \textbf{positive} work, since the direction of the force matches the direction of movement. In the event that we have 2 oppositely charged particles, the direction of the force would be towards each other. However, if we still moved the particles from $0 \rightarrow \infty,$ then the direction of movement is \textit{opposite} the direction of the force, resulting in a negative potential energy.
+
+		\item What is potential? It is almost the same as potential energy, but potential energy is a quantity that \textbf{requires} the existence of another particle. A \textit{potential} is, in some sense, a ``potential energy density,'' where it is the potential energy per unit charge. Therefore, $$V = \frac{U}{q}.$$
+	\end{itemize}
+
+	Let's now see if we can relate and explain the following quantities: $$F_e, E, U, K_e, V.$$ How do all these quantities relate?
+
+	Let's begin with Coulomb's Law. Recall that Coulomb's Law is $$\vec F_{21} = \frac{k q_1 q_2}{r_{12}^2} \hat r_{12}.$$
+
+	There are a lot of similarities between gravitational potential and electric potential; the only difference is that gravitational potential is not a super useful quantity for us, which is why we don't discuss it extensively in Physics I.
+
+	\textbf{A Dialectric}
+		\begin{itemize}
+			\item What is a dialectric? Just a fancy word for an instulating material between two conductors.
+		\end{itemize}
+
 
 
 \chapter{Fun Problems}
